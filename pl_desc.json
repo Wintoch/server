@@ -1,0 +1,1013 @@
+{
+  "ACSP-402": {
+    "name": "Centrala sygnalizacji pożarowej",
+    "description": "<p>Centrala sygnalizacji pożarowej <strong>ACSP-402</strong> przeznaczona jest do:</p>\r\n\r\n<ul>\r\n\t<li>sygnalizowania pożaru zgłoszonego przez automatyczne lub ręczne ostrzegacze pożarowe</li>\r\n\t<li>poinformowania o miejscu wykrycia pożaru</li>\r\n\t<li>uruchomienia głośnej sygnalizacji dźwiękowej (sygnalizatory), aby ostrzec o pożarze osoby przebywające na terenie chronionego obiektu</li>\r\n\t<li>zgłoszenia pożaru właściwym służbom (np. straży pożarnej)</li>\r\n\t<li>sterowania urządzeniami, kt&oacute;re zapobiegają rozprzestrzenianiu się pożaru</li>\r\n\t<li>uruchomienia urządzeń służących do automatycznego gaszenia pożaru</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Strefy</strong></p>\r\n\r\n<ul>\r\n\t<li>grupowanie automatycznych i ręcznych ostrzegaczy pożarowych w celu podzielnia chronionego obiektu ma mniejsze obszary</li>\r\n\t<li>do 256 stref</li>\r\n\t<li>grupowanie automatycznych ostrzegaczy pożarowych w podstrefach na potrzeby wariant&oacute;w alarmowania w strefie</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Grupy</strong></p>\r\n\r\n<ul>\r\n\t<li>grupowanie sygnalizator&oacute;w</li>\r\n\t<li>powiązywanie z grupą wskaźnik&oacute;w zadziałania, wejść i wyjść</li>\r\n\t<li>do 32 grup</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Adresowalne linie dozorowe</strong></p>\r\n\r\n<ul>\r\n\t<li>obsługa następujących linii dozorowych:\r\n\t<ul>\r\n\t\t<li>pętla</li>\r\n\t\t<li>promień</li>\r\n\t\t<li>pętla z odgałęzieniem (z promieniem)</li>\r\n\t</ul>\r\n\t</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Wejścia</strong></p>\r\n\r\n<ul>\r\n\t<li>4 programowalne wejścia na płycie gł&oacute;wnej centrali (NO, NC)</li>\r\n\t<li>nadzorowanie stanu urządzeń zewnętrznych, np. do powiadamiania o alarmach pożarowych i uszkodzeniach</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Wyjścia</strong></p>\r\n\r\n<ul>\r\n\t<li>2 wyjścia do sterowania sygnalizatorami konwencjonalnymi</li>\r\n\t<li>wyjście do sterowania urządzeniami do transmisji alarm&oacute;w pożarowych</li>\r\n\t<li>wyjście do sterowania urządzeniami do transmisji sygnał&oacute;w uszkodzenia</li>\r\n\t<li>8 programowalnych wyjść przekaźnikowych\r\n\t<ul style=\"list-style-type:circle;\">\r\n\t\t<li>sterowanie urządzeniami zewnętrznymi</li>\r\n\t\t<li>wyjście do sterowania automatycznymi przeciwpożarowymi urządzeniami zabezpieczającymi</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>wyjście zasilające 24 V DC</li>\r\n\t<li>wyjście dedykowane do zasilania moduł&oacute;w <b>ACSP-ETH</b> i <b>ACSP-RSI</b></li>\r\n\t<li>op&oacute;źnienie sygnał&oacute;w na wyjściach</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Magistrala komunikacyjne RS-485</strong></p>\r\n\r\n<ul>\r\n\t<li>możliwość podłączenia\r\n\t<ul style=\"list-style-type:circle;\">\r\n\t\t<li>panelu wyniesionego <b>APSP-402</b></li>\r\n\t\t<li>modułu <strong>ACSP-ETH</strong> (rozbudowa centrali o łącze Ethernet)</li>\r\n\t\t<li>modułu <strong>ACSP-RSI</strong> (optoizolacja magistrali i podłączenie drukarki)</li>\r\n\t</ul>\r\n\t</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Konfigurowanie</strong></p>\r\n\r\n<ul>\r\n\t<li>konfigurowanie przy pomocy przycisk&oacute;w na panelu czołowym centrali</li>\r\n\t<li>bezpłatny program <b>ACSP Soft</b> umożliwiający konfigurowanie centrali (port USB)</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Pamięć zdarzeń</strong></p>\r\n\r\n<ul>\r\n\t<li>nieulotna pamięć do 9999 alarm&oacute;w pożarowych</li>\r\n\t<li>nieulotna pamięć 8999 zdarzeń (w tym alarm&oacute;w pożarowych)</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Powiadamianie e-mail</strong> (wymaga podłączenia modułu ACSP-ETH)</p>\r\n\r\n<ul>\r\n\t<li>4 adresy do powiadamiania</li>\r\n\t<li>wyb&oacute;r typ&oacute;w zdarzeń do powiadamiania</li>\r\n\t<li>okresowe raporty diagnostyczne</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Moduł płyty gł&oacute;wnej centrali</strong></p>\r\n\r\n<ul>\r\n\t<li>diody LED informujące o statusie centrali i urządzeń zewnętrznych</li>\r\n\t<li>wyświetlacz LCD umożliwiający:\r\n\t<ul>\r\n\t\t<li>konfigurowanie centrali</li>\r\n\t\t<li>wyświetlanie informacji o alarmie pożarowym</li>\r\n\t\t<li>wyświetlanie komunikat&oacute;w o blokadach, testach oraz uszkodzeniach</li>\r\n\t\t<li>przeglądanie listy aktualnych blokad, test&oacute;w oraz uszkodzeń</li>\r\n\t\t<li>przeglądanie historii alarm&oacute;w i innych zdarzeń</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>port USB umożliwiający podłączenie komputera</li>\r\n\t<li>złącze do podłączenia zasilacza</li>\r\n\t<li>złącze do podłączenia akumulatora</li>\r\n\t<li>wbudowany przetwornik piezoelektryczny do sygnalizacji dźwiękowej</li>\r\n\t<li>zegar czasu rzeczywistego z podtrzymywaniem bateryjnym</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Zasilanie</strong></p>\r\n\r\n<ul>\r\n\t<li>obsługa zasilacza impulsowego <b>APS-318</b> (zasilanie gł&oacute;wne)</li>\r\n\t<li>automatyczne przełączenie na zasilanie awaryjne (akumulator) w przypadku awarii zasilania gł&oacute;wnego</li>\r\n\t<li>układ ładowania akumulatora z kompensacją temperaturową napięcia ładowania</li>\r\n\t<li>kontrola stanu akumulatora (brak akumulatora, rozładowany akumulator lub zbyt duża rezystancja wewnętrzna akumulatora)</li>\r\n\t<li>odłączanie rozładowanego akumulatora</li>\r\n</ul>\r\n",
+    "specs": [
+      { "name": "Zakres temperatur pracy", "value": "-5…+40°C ", "id": "147" },
+      {
+        "name": "Napięcie zasilania (±15%)",
+        "value": "230 V AC, 50-60 Hz",
+        "id": "154"
+      },
+      { "name": "Maksymalna wilgotność", "value": "93±3% ", "id": "223" },
+      { "name": "Wymiary", "value": "324 x 382 x 108 mm", "id": "289" },
+      {
+        "name": "Maksymalny pobór prądu z sieci 230 V",
+        "value": "300 mA",
+        "id": "432"
+      },
+      {
+        "name": "Zakres temperatur transportu",
+        "value": "-25…+55°C ",
+        "id": "480"
+      },
+      {
+        "name": "Czas pracy zasilania rezerwowego",
+        "value": "72 h ",
+        "id": "487"
+      },
+      {
+        "name": "Maks. rezystancja wewnętrzna akumulatora (z przewodami i zaciskami w obwodzie)",
+        "value": "1,1±10% Ω",
+        "id": "489"
+      },
+      {
+        "name": "Pobór prądu z akumulatora w stanie dozorowania",
+        "value": "220 mA",
+        "id": "490"
+      },
+      {
+        "name": "Pobór prądu z akumulatora w stanie alarmu",
+        "value": "320 mA",
+        "id": "491"
+      },
+      {
+        "name": "Pobór prądu ze zintegrowanego zasilacza AC w stanie dozorowania",
+        "value": "200 mA",
+        "id": "492"
+      },
+      {
+        "name": "Pobór prądu ze zintegrowanego zasilacza AC w stanie alarmu",
+        "value": "300 mA",
+        "id": "493"
+      },
+      { "name": "Szczelność obudowy", "value": "IP30 ", "id": "494" },
+      { "name": "Pojemność pamięci zdarzeń", "value": "8999 ", "id": "496" },
+      {
+        "name": "Pojemność licznika alarmowania",
+        "value": "9999 ",
+        "id": "497"
+      },
+      {
+        "name": "Czas zwłoki transmisji alarmu na zewnątrz",
+        "value": "0...10 min ",
+        "id": "498"
+      },
+      { "name": "Bateria zegara", "value": "3 V (CR2032) ", "id": "499" },
+      {
+        "name": "Wyjście komunikacji z komputerem PC (serwisowe)",
+        "value": "USB typ B ",
+        "id": "500"
+      },
+      {
+        "name": "Rezystor końcowy na zaciskach komunikacji z panelem wyniesionym",
+        "value": "100 Ω",
+        "id": "501"
+      },
+      {
+        "name": "Wyjście komunikacji z panelem wyniesionym oraz modułem CSP-ETH",
+        "value": "transmisja szeregowa ",
+        "id": "502"
+      },
+      {
+        "name": "Wyjście zasilające+24V",
+        "value": "24 V DC±15% ",
+        "id": "503"
+      },
+      {
+        "name": "Wyjście zasilające AUX (tylko do podłączenia modułu CSP-ETH): w stanie normalnym",
+        "value": "18 V DC +5%, -15% ",
+        "id": "504"
+      },
+      {
+        "name": "Rezystor alarmowy w linii wejścia kontrolnego",
+        "value": "1 kΩ±5% ",
+        "id": "505"
+      },
+      {
+        "name": "Rezystor końcowy w linii wejścia kontrolnego",
+        "value": "10 kΩ±5% ",
+        "id": "506"
+      },
+      {
+        "name": "Liczba programowanych wejść kontrolnych",
+        "value": "4 ",
+        "id": "507"
+      },
+      {
+        "name": "Parametry elektryczne wyjść przekaźnikowych",
+        "value": "1A / 30 V DC (NO lub NC) ",
+        "id": "508"
+      },
+      { "name": "Liczba linii transmisji alarmu", "value": "1 ", "id": "523" },
+      {
+        "name": "Napięcie robocze linii transmisji alarmu",
+        "value": "24 V DC±15% ",
+        "id": "524"
+      },
+      {
+        "name": "Dopuszczalny prąd linii transmisji alarmu",
+        "value": "180 mA",
+        "id": "525"
+      },
+      {
+        "name": "Rezystor końcowy w linii transmisji alarmu",
+        "value": "10 kΩ±5% ",
+        "id": "526"
+      },
+      {
+        "name": "Liczba linii transmisji uszkodzenia",
+        "value": "1 ",
+        "id": "527"
+      },
+      {
+        "name": "Napięcie robocze linii transmisji uszkodzenia",
+        "value": "24 V DC±15% ",
+        "id": "528"
+      },
+      {
+        "name": "Dopuszczalny prąd linii transmisji uszkodzenia",
+        "value": "180 mA",
+        "id": "529"
+      },
+      {
+        "name": "Rezystor końcowy w linii transmisji uszkodzenia",
+        "value": "10 kΩ±5% ",
+        "id": "530"
+      },
+      {
+        "name": "Liczba programowanych wyjść przekaźnikowych",
+        "value": "8 ",
+        "id": "531"
+      },
+      {
+        "name": "Zasilanie rezerwowe: wewnętrzny akumulator kwasowy",
+        "value": "12 V / 17 Ah ",
+        "id": "532"
+      },
+      {
+        "name": "Zasilanie rezerwowe: zewnętrzny akumulator kwasowy",
+        "value": "12 V / ≤33 Ah ",
+        "id": "533"
+      },
+      {
+        "name": "Wyjście zasilające AUX (tylko do podłączenia modułu CSP-ETH): przy awarii zasilania AC",
+        "value": "12 V DC +15%, -20% ",
+        "id": "534"
+      },
+      {
+        "name": "Maksymalny prąd łądowania akumulatora",
+        "value": "1,4 A",
+        "id": "615"
+      },
+      {
+        "name": "Zabezpieczenie nadprądowe zasilacza sieciowego (bezpiecznik topikowy zwłoczny)",
+        "value": "3,15 A",
+        "id": "846"
+      },
+      {
+        "name": "Parametry prądowe zintegrowanego zasilacza sieciowego (wg EN54-4) - Imax a",
+        "value": "1,6 A",
+        "id": "847"
+      },
+      {
+        "name": "Parametry prądowe zintegrowanego zasilacza sieciowego (wg EN54-4) - Imax b",
+        "value": "1,6 A",
+        "id": "848"
+      },
+      {
+        "name": "Zabezpieczenie nadprądowe układu ładowania akumulatora (bezp. topikowy zwłoczny)",
+        "value": "3,5 A",
+        "id": "849"
+      },
+      {
+        "name": "Maksymalna liczba adresowalnych linii dozorowych (pętla)",
+        "value": "2 ",
+        "id": "850"
+      },
+      {
+        "name": "Maksymalna liczba adresowalnych linii dozorowych (promień)",
+        "value": "4 ",
+        "id": "851"
+      },
+      {
+        "name": "Maksymalna rezystancja adresowalnej linii dozorowej",
+        "value": "100 (2 x 50) Ω",
+        "id": "852"
+      },
+      {
+        "name": "Maksymalna liczba elementów liniowych w adresowalnej linii dozorowej",
+        "value": "128 ",
+        "id": "853"
+      },
+      {
+        "name": "Zalecana liczba elementów liniowych w adresowalnej linii dozorowej typu promień",
+        "value": "32 ",
+        "id": "854"
+      },
+      {
+        "name": "Maksymalna liczba automatycznych ostrzegaczy w konwencjonalnej linii dozorowej",
+        "value": "32 ",
+        "id": "855"
+      },
+      {
+        "name": "Maksymalna liczba ręcznych ostrzegaczy (ROP) w konwencjonalnej linii dozorowej",
+        "value": "10 ",
+        "id": "856"
+      },
+      {
+        "name": "Maksymalny prąd w linii dozorowej",
+        "value": "200 mA",
+        "id": "857"
+      },
+      {
+        "name": "Maks. dopuszczalna rezystancja linii sygnalizatorów, alarmu i uszkodzenia",
+        "value": "75 (2 x 37,5) Ω",
+        "id": "858"
+      },
+      {
+        "name": "Liczba linii sygnalizatorów konwencjonalnych",
+        "value": "2 ",
+        "id": "859"
+      },
+      {
+        "name": "Napięcie robocze linii sygnalizatorów konwencjonalnych (±15%)",
+        "value": "24 VDC",
+        "id": "860"
+      },
+      {
+        "name": "Dopuszczalny prąd linii sygnalizatorów konwencjonalnych",
+        "value": "180 mA",
+        "id": "861"
+      },
+      {
+        "name": "Rezystor końcowy w linii sygnalizatorów konwencjonalnych",
+        "value": "10 kΩ±5% ",
+        "id": "862"
+      },
+      {
+        "name": "Obciążalność wyjścia zasilającego +24 V",
+        "value": "200 mA",
+        "id": "863"
+      },
+      { "name": "Masa bez akumulatora", "value": "2721 g", "id": "864" }
+    ]
+  },
+  "ACSP-ETH": {
+    "name": "Ethernetowy moduł komunikacyjny",
+    "description": "<p>Moduł <strong>ACSP-ETH</strong> umożliwia zdalny podgląd stanu Adresowalnego Systemu Sygnalizacji Pożarowej <strong>ACSP</strong> z urządzenia mobilnego lub komputera. Moduł jest opcjonalnym elementem systemu sygnalizacji pożarowej bazującego na centrali <b>ACSP-402</b>.</p>\r\n\r\n<ul>\r\n\t<li>podgląd stanu systemu sygnalizacji pożarowej <b>ACSP</b> w aplikacji <b>Virtual&nbsp;APSP</b> na komputerze lub urządzeniu mobilnym</li>\r\n\t<li>powiadamianie o stanie systemu sygnalizacji pożarowej przy pomocy wiadomości e-mail</li>\r\n\t<li>prezentacja stanu systemu sygnalizacji pożarowej w aplikacji <b>INTEGRUM</b></li>\r\n\t<li>możliwość synchronizowania czasu z serwerem czasu NTP</li>\r\n\t<li>złącze Ethernet</li>\r\n\t<li>port RS-485 do podłączenia centrali <b>ACSP-402</b> / panelu wyniesionego <b>APSP-402</b></li>\r\n\t<li>zasilanie 12...18&nbsp;V&nbsp;DC z centrali <b>ACSP-402</b> / panelu wyniesionego <b>APSP-402</b></li>\r\n</ul>\r\n",
+    "specs": [
+      { "name": "Pobór prądu", "value": "35 mA", "id": "93" },
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-10°C...+55°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "25 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "93±3% ", "id": "223" },
+      { "name": "Wymiary", "value": "61 x 51 mm", "id": "289" },
+      { "name": "Napięcie zasilania", "value": "12...18 V DC", "id": "842" }
+    ]
+  },
+  "ACSP-RSI": {
+    "name": "Moduł izolacji galwanicznej magistrali RS-485",
+    "description": "<p>Moduł <strong>ACSP-RSI</strong> służy do odizolowania galwanicznego centrali sygnalizacji pożarowej <b>ACSP-402</b> i panelu wyniesionego <b>APSP-402</b> połączonych za pomocą magistrali RS-485. Dzięki temu panel wyniesiony nie musi być podłączane do tego samego obwodu ochronnego PE, co centrala. Moduł może służyć do podłączenia drukarki termicznej szeregowej, kt&oacute;ra może drukować zdarzenia zarejestrowane przez centralę.</p>\r\n\r\n<ul>\r\n\t<li>izolacja galwaniczna magistrali RS-485</li>\r\n\t<li>port RS-485 do podłączenia centrali <strong>ACSP-402</strong> / panelu wyniesionego <strong>APSP-402</strong></li>\r\n\t<li>port RS-485 do podłączenia drugiego modułu <strong>ACSP-RSI</strong></li>\r\n\t<li>możliwość podłączenia drukarki termicznej szeregowej</li>\r\n\t<li>zasilanie 12...18 V DC z centrali <strong>ACSP-402</strong> / panelu wyniesionego <strong>APSP-402</strong></li>\r\n\t<li>zdejmowane zaciski montażowe</li>\r\n</ul>\r\n",
+    "specs": [
+      { "name": "Pobór prądu", "value": "45 mA", "id": "93" },
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-10°C...+55°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "28 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "93±3% ", "id": "223" },
+      { "name": "Wymiary", "value": "61 x 51 mm", "id": "289" },
+      { "name": "Napięcie zasilania", "value": "12...18 V DC", "id": "842" }
+    ]
+  },
+  "APSP-402": {
+    "name": "Panel wyniesiony",
+    "description": "<p>Panel wyniesiony służy do zdalnej obsługi adresowalnej centrali systemu sygnalizacji pożarowej ACSP. Do centrali <b>ACSP-402</b> można podłączyć jeden panel wyniesiony <strong>APSP-402</strong>. Panel można zamontować w obrębie chronionego obiektu w odległości do 1000 m od centrali.</p>\r\n\r\n<ul>\r\n\t<li>zdalna obsługa centrali na poziomach 1 i 2 jak z panelu czołowego centrali</li>\r\n\t<li>podłączenie do centrali za pośrednictwem magistrali komunikacyjnej RS-485</li>\r\n\t<li>diody LED informujące o statusie systemu</li>\r\n\t<li>wyświetlacz LCD umożliwiający:\r\n\t<ul style=\"list-style-type:circle;\">\r\n\t\t<li>wyświetlanie informacji o alarmie</li>\r\n\t\t<li>wyświetlanie komunikat&oacute;w</li>\r\n\t\t<li>przeglądanie listy aktualnych blokad, test&oacute;w oraz uszkodzeń</li>\r\n\t\t<li>przeglądanie historii alarm&oacute;w i innych zdarzeń</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>wbudowany przetwornik piezoelektryczny do sygnalizacji dźwiękowej</li>\r\n\t<li>dołączony zasilacz impulsowy <b>APS-318</b></li>\r\n\t<li>miejsce w obudowie na akumulator 12 V / 7 Ah</li>\r\n\t<li>automatyczne przełączenie na zasilanie awaryjne (akumulator) w przypadku awarii zasilania gł&oacute;wnego</li>\r\n</ul>\r\n",
+    "specs": [
+      { "name": "Zakres temperatur pracy", "value": "-5…+40°C ", "id": "147" },
+      {
+        "name": "Napięcie zasilania (±15%)",
+        "value": "230 V AC, 50-60 Hz",
+        "id": "154"
+      },
+      { "name": "Maksymalna wilgotność", "value": "93±3% ", "id": "223" },
+      { "name": "Wymiary", "value": "324 x 382 x 108 mm", "id": "289" },
+      {
+        "name": "Maksymalny pobór prądu z sieci 230 V",
+        "value": "250 mA",
+        "id": "432"
+      },
+      {
+        "name": "Zakres temperatur transportu",
+        "value": "-25….+55°C ",
+        "id": "480"
+      },
+      {
+        "name": "Czas pracy zasilania rezerwowego",
+        "value": "72 h ",
+        "id": "487"
+      },
+      {
+        "name": "Maks. rezystancja wewnętrzna akumulatora (z przewodami i zaciskami w obwodzie)",
+        "value": "1,1±10% Ω Ω",
+        "id": "489"
+      },
+      {
+        "name": "Pobór prądu z akumulatora w stanie dozorowania",
+        "value": "65 mA",
+        "id": "490"
+      },
+      {
+        "name": "Pobór prądu z akumulatora w stanie alarmu",
+        "value": "75 mA",
+        "id": "491"
+      },
+      {
+        "name": "Pobór prądu ze zintegrowanego zasilacza AC w stanie dozorowania",
+        "value": "60 mA",
+        "id": "492"
+      },
+      {
+        "name": "Pobór prądu ze zintegrowanego zasilacza AC w stanie alarmu",
+        "value": "70 mA",
+        "id": "493"
+      },
+      { "name": "Szczelność obudowy", "value": "IP30 ", "id": "494" },
+      {
+        "name": "Zasilanie rezerwowe: wewnętrzny akumulator kwasowy",
+        "value": "12 V / 17 Ah ",
+        "id": "532"
+      },
+      {
+        "name": "Maksymalny prąd łądowania akumulatora",
+        "value": "1,4 A",
+        "id": "615"
+      },
+      {
+        "name": "Zabezpieczenie nadprądowe zasilacza sieciowego (bezpiecznik topikowy zwłoczny)",
+        "value": "3,15 A",
+        "id": "846"
+      },
+      {
+        "name": "Parametry prądowe zintegrowanego zasilacza sieciowego (wg EN54-4) - Imax a",
+        "value": "1,6 A",
+        "id": "847"
+      },
+      {
+        "name": "Parametry prądowe zintegrowanego zasilacza sieciowego (wg EN54-4) - Imax b",
+        "value": "1,6 A",
+        "id": "848"
+      },
+      { "name": "Masa bez akumulatora", "value": "2625 g", "id": "864" }
+    ]
+  },
+  "DB-100": {
+    "name": "Konwencjonalne gniazdo punktowych czujek pożarowych",
+    "description": "<p>Gniazdo czujek systemu CSP pozwala na łatwy montaż i demontaż czujek, bez konieczności odłączania przewod&oacute;w. W znaczący spos&oacute;b ułatwia to okresową konserwację systemu, oraz serwisową wymianę urządzeń.</p>\r\n\r\n<ul>\r\n\t<li>kompatybilna z czujkami <b>DMP-100</b>, <b>DRP-100</b> i <b>DCP-100</b></li>\r\n\t<li>możliwość zablokowania czujki w gnieździe zapobiegające jej demontażowi bez użycia narzędzi,</li>\r\n\t<li>dodatkowy zacisk przewodu ochronnego(PE) ułatwiający wykonywanie instalacji za pomocą przewod&oacute;w ekranowanych</li>\r\n</ul>\r\n",
+    "specs": []
+  },
+  "DB-400": {
+    "name": "Gniazdo czujek adresowalnych",
+    "description": "<p>Gniazdo <strong>DB-400</strong> umożliwia podłączenie do linii dozorowej adresowalnej centrali sygnalizacji pożarowej <b>ACSP-402</b> automatycznych ostrzegaczy pożarowych firmy SATEL:</p>\r\n\r\n<ul>\r\n\t<li><b>DMP-400</b> &ndash; adresowalnej wielodetektorowej czujki dymu i ciepła,</li>\r\n\t<li><b>DRP-400</b> &ndash; adresowalnej optycznej czujki dymu,</li>\r\n\t<li><b>DCP-400</b> &ndash; adresowalnej nadmiarowo-r&oacute;żniczkowej czujki ciepła.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>zapewnienie ciągłości linii dozorowej w przypadku odłączenia czujki</li>\r\n\t<li>łatwe odłączenie czujki od linii dozorowej podczas kontroli okresowej lub innych czynności serwisowych</li>\r\n\t<li>możliwość podłączenia przewod&oacute;w linii dozorowej prowadzonych podtynkowo lub natynkowo</li>\r\n\t<li>możliwość podłączenia wyniesionego wskaźnika zadziałania <b>WZ-110</b> firmy SATEL</li>\r\n\t<li>możliwość montażu na podstawie przemysłowej <b>PDB-100</b> firmy SATEL w celu ochrony przed dostaniem się wody, gdy na suficie wstępuje zjawisko skraplania pary wodnej</li>\r\n</ul>\r\n",
+    "specs": [
+      { "name": "Masa", "value": "53 g", "id": "185" },
+      { "name": "Wymiary", "value": "ø106 x 26 mm", "id": "289" }
+    ]
+  },
+  "DCP-100": {
+    "name": "Punktowa czujka ciepła klasy A1R",
+    "description": "<p>Punktowa czujka ciepła przeznaczona jest do wykrywania szybkiego wzrostu temperatury lub przekroczenia temperatury granicznej, w wyniku rozwijającego się pożaru.</p>\r\n\r\n<ul>\r\n\t<li>czujnik termiczny o charakterystyce A1R zgodnie z EN54-5</li>\r\n\t<li>łatwy montaż czujki w podstawie <b>DB-100</b></li>\r\n\t<li>możliwość podłączenia zewnętrznego wskaźnika zadziałania</li>\r\n</ul>\r\n",
+    "specs": [
+      { "name": "Wymiary obudowy", "value": "ø108 x 49 mm", "id": "141" },
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-25...+50 °C ",
+        "id": "147"
+      },
+      { "name": "Napięcie zasilania", "value": "10,5...26 V DC ", "id": "163" },
+      { "name": "Masa", "value": "94 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "93±3% ", "id": "223" },
+      {
+        "name": "Klasa wg EN 54-5 (czujnik termiczny)",
+        "value": "A1R ",
+        "id": "309"
+      },
+      {
+        "name": "Minimalna statyczna temperatura zgłoszenia alarmu",
+        "value": "54 °C",
+        "id": "311"
+      },
+      {
+        "name": "Maksymalna statyczna temperatura zgłoszenia alarmu",
+        "value": "65 °C",
+        "id": "312"
+      },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "0,022  mA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "23 mA",
+        "id": "476"
+      }
+    ]
+  },
+  "DCP-400": {
+    "name": "Adresowalna nadmiarowo-różniczkowa czujka ciepła",
+    "description": "<p>Czujka umożliwia wykrycie wczesnego stadium rozwoju pożaru, gdy ma miejsce wzrost temperatury. Przeznaczona jest do pracy w linii dozorowej adresowanej centrali sygnalizacji pożarowej <b>ACSP-402</b>.</p>\r\n\r\n<ul>\r\n\t<li>czujnik termiczny</li>\r\n\t<li>przetwornik piezoelektryczny do sygnalizacji akustycznej</li>\r\n\t<li>dioda LED do sygnalizacji optycznej</li>\r\n\t<li>obustronny izolator zwarć</li>\r\n\t<li>zasilanie z linii dozorowej</li>\r\n\t<li>montaż w gnieździe <b>DB-400</b> (gniazdo do nabycia osobno)</li>\r\n\t<li>możliwość podłączenia wskaźnika zadziałania <b>WZ-110</b></li>\r\n\t<li>w zestawie osłona przeciwpyłowa</li>\r\n</ul>\r\n",
+    "specs": [
+      { "name": "Wymiary obudowy", "value": "ø108 x 54 mm", "id": "141" },
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-25...+50°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "94 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "93±3% ", "id": "223" },
+      {
+        "name": "Klasa wg EN 54-5 (czujnik termiczny)",
+        "value": "A1R ",
+        "id": "309"
+      },
+      {
+        "name": "Minimalna statyczna temperatura zgłoszenia alarmu",
+        "value": "54 °C",
+        "id": "311"
+      },
+      {
+        "name": "Maksymalna statyczna temperatura zgłoszenia alarmu",
+        "value": "65 °C",
+        "id": "312"
+      },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "450 µA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "0,6  mA",
+        "id": "476"
+      },
+      { "name": "Napięcie zasilania", "value": "18...26 V DC", "id": "842" }
+    ]
+  },
+  "DMP-100": {
+    "name": "Punktowa wielodetektorowa czujka dymu i ciepła",
+    "description": "<p>Punktowa czujka wielosensorowa łączy w jednym urządzeniu funkcjonalność wykrywania widzialnego dymu oraz wykrywania szybkiego wzrostu i przekroczenia temperatury granicznej. Dzięki połączeniu technologii detekcji, czujka <b>DMP-100</b> zapewnia wszechstronność w wykrywaniu r&oacute;żnych źr&oacute;deł pożaru.</p>\r\n\r\n<ul>\r\n\t<li>unikalna komora Swirl przyspieszająca wykrywanie dymu</li>\r\n\t<li>wykrywane pożary testowe: TF-1 do TF-5 zgodnie z EN54-7 oraz TF-1, TF-6 i TF-8 zgodnie z ISO/TS 7240-9:2006</li>\r\n\t<li>czujnik termiczny o charakterystyce A1R zgodnie z EN54-5</li>\r\n\t<li>precyzyjny filtr ze stali nierdzewnej</li>\r\n\t<li>sygnalizacja awarii - zabrudzenia komory pomiarowej</li>\r\n\t<li>łatwy montaż czujki w podstawie <b>DB-100</b></li>\r\n\t<li>możliwość podłączenia zewnętrznego wskaźnika zadziałania</li>\r\n</ul>\r\n",
+    "specs": [
+      { "name": "Wymiary obudowy", "value": "ø108 x 49  mm", "id": "141" },
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-25...+50 °C ",
+        "id": "147"
+      },
+      { "name": "Napięcie zasilania", "value": "10,5...26 V DC ", "id": "163" },
+      { "name": "Masa", "value": "94 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "93±3% ", "id": "223" },
+      {
+        "name": "Klasa wg EN 54-5 (czujnik termiczny)",
+        "value": "A1R ",
+        "id": "309"
+      },
+      {
+        "name": "Minimalna statyczna temperatura zgłoszenia alarmu",
+        "value": "54 °C",
+        "id": "311"
+      },
+      {
+        "name": "Maksymalna statyczna temperatura zgłoszenia alarmu",
+        "value": "65 °C",
+        "id": "312"
+      },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "40 µA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "23 mA",
+        "id": "476"
+      }
+    ]
+  },
+  "DMP-400": {
+    "name": "Adresowalna wielodetektorowa czujka dymu i ciepła",
+    "description": "<p>Czujka umożliwia wykrycie wczesnego stadium rozwoju pożaru, gdy pojawia się dym widzialny i/lub ma miejsce wzrost temperatury. Przeznaczona jest do pracy w linii dozorowej adresowalnej centrali sygnalizacji pożarowej <b>ACSP-402</b>.</p>\r\n\r\n<ul>\r\n\t<li>czujnik dymu widzialnego</li>\r\n\t<li>czujnik termiczny</li>\r\n\t<li>detekcja zabrudzenia komory optycznej</li>\r\n\t<li>czułość czujnika dymu regulowana przez centralę (4 poziomy czułości)</li>\r\n\t<li>dioda LED do sygnalizacji optycznej</li>\r\n\t<li>obustronny izolator zwarć</li>\r\n\t<li>zasilanie z linii dozorowej</li>\r\n\t<li>montaż w gnieździe <b>DB-400</b> (gniazdo do nabycia osobno)</li>\r\n\t<li>możliwość podłączenia wskaźnika zadziałania <b>WZ-110</b></li>\r\n\t<li>w zestawie osłona przeciwpyłowa</li>\r\n</ul>\r\n",
+    "specs": [
+      { "name": "Wymiary obudowy", "value": "ø108 x 54 mm", "id": "141" },
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-25...+50°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "95 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "93±3% ", "id": "223" },
+      {
+        "name": "Klasa wg EN 54-5 (czujnik termiczny)",
+        "value": "A1R ",
+        "id": "309"
+      },
+      {
+        "name": "Minimalna statyczna temperatura zgłoszenia alarmu",
+        "value": "54 °C",
+        "id": "311"
+      },
+      {
+        "name": "Maksymalna statyczna temperatura zgłoszenia alarmu",
+        "value": "65 °C",
+        "id": "312"
+      },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "500 µA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "700 µA",
+        "id": "476"
+      },
+      { "name": "Napięcie zasilania", "value": "18...26 V DC", "id": "842" }
+    ]
+  },
+  "DRP-100": {
+    "name": "Punktowa optyczna czujka dymu",
+    "description": "<p>Punktowa czujka dymu przeznaczona jest do wykrywania widzialnego dymu towarzyszącego rozwijającemu się pożarowi.</p>\r\n\r\n<ul>\r\n\t<li>unikalna komora Swirl przyspieszająca wykrywanie dymu</li>\r\n\t<li>wykrywane pożary testowe: TF-2 do TF-5 zgodnie z EN54-7 oraz TF-1 i TF-8 zgodnie z ISO/TS 7240-9:2006,</li>\r\n\t<li>precyzyjny filtr ze stali nierdzewnej</li>\r\n\t<li>sygnalizacja awarii - zabrudzenia komory pomiarowej</li>\r\n\t<li>łatwy montaż czujki w podstawie <strong>DB-100</strong></li>\r\n\t<li>możliwość podłączenia zewnętrznego wskaźnika zadziałania</li>\r\n</ul>\r\n",
+    "specs": [
+      { "name": "Wymiary obudowy", "value": "ø108 x 42  mm", "id": "141" },
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-25...+50 °C ",
+        "id": "147"
+      },
+      { "name": "Napięcie zasilania", "value": "10,5...26 V DC ", "id": "163" },
+      { "name": "Masa", "value": "94 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "93±3% ", "id": "223" },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "0,03  mA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "23 mA",
+        "id": "476"
+      }
+    ]
+  },
+  "DRP-400": {
+    "name": "Adresowalna optyczna czujka dymu",
+    "description": "<p>Czujka umożliwia wykrycie wczesnego stadium rozwoju pożaru, gdy pojawia się dym widzialny. Przeznaczona jest do pracy w linii dozorowej adresowalnej centrali sygnalizacji pożarowej <b>ACSP-402</b>.</p>\r\n\r\n<ul>\r\n\t<li>czujnik dymu widzialnego</li>\r\n\t<li>detekcja zabrudzenia komory optycznej</li>\r\n\t<li>czułość czujnika dymu regulowana przez centrale (4 poziomy czułości)</li>\r\n\t<li>dioda LED do sygnalizacji optycznej</li>\r\n\t<li>obustronny izolator zwarć</li>\r\n\t<li>zasilanie z linii dozorowej</li>\r\n\t<li>montaż w gnieździe <b>DB-400</b> (gniazdo do nabycia osobno)</li>\r\n\t<li>możliwość podłączenia wskaźnika zadziałania <b>WZ-110</b></li>\r\n\t<li>w zestawie osłona przeciwpyłowa</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n<!-- pdf cut start -->\r\n\r\n<div class=\"video-row\">\r\n<div class=\"vid-container\">\r\n<div class=\"vid-box\"><iframe allow=\"accelerometer; autoplay; encrypted-media; gyroscope;\" allowfullscreen=\"\" frameborder=\"0\" src=\"https://www.youtube.com/embed/Mya3yWkE5LY\"></iframe></div>\r\n\r\n<div>\r\n<p>Jak działa czujka DRP-400</p>\r\n</div>\r\n</div>\r\n\r\n<div class=\"vid-container\">\r\n<div class=\"vid-box\"><iframe allow=\"accelerometer; autoplay; encrypted-media; gyroscope;\" allowfullscreen=\"\" frameborder=\"0\" src=\"https://www.youtube.com/embed/Njalo7Aj0uk\"></iframe></div>\r\n\r\n<div>\r\n<p>Czujka DRP-400 &ndash; kompensacja zabrudzenia</p>\r\n</div>\r\n</div>\r\n</div>\r\n<!-- pdf cut stop -->\r\n",
+    "specs": [
+      { "name": "Wymiary obudowy", "value": "ø108 x 46 mm", "id": "141" },
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-25...+50°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "94 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "93±3% ", "id": "223" },
+      {
+        "name": "Minimalna statyczna temperatura zgłoszenia alarmu",
+        "value": "54 °C",
+        "id": "311"
+      },
+      {
+        "name": "Maksymalna statyczna temperatura zgłoszenia alarmu",
+        "value": "65 °C",
+        "id": "312"
+      },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "450 µA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "700 µA",
+        "id": "476"
+      },
+      { "name": "Napięcie zasilania", "value": "18...26 V DC", "id": "842" }
+    ]
+  },
+  "MIO-400": {
+    "name": "Moduł wejść i wyjść konwencjonalnych",
+    "description": "<p>Moduł <strong>MIO-400</strong> służy do nadzoru przeciwpożarowych urządzeń zabezpieczających lub system&oacute;w przeciwpożarowych oraz innych urządzeń, a także sterowania nimi.</p>\r\n\r\n<p>Przeznaczony jest do pracy w linii dozorowej adresowalnej centrali sygnalizacji pożarowej <b>ACSP-402</b>.</p>\r\n\r\n<ul>\r\n\t<li>4 wejścia:\r\n\t<ul style=\"list-style-type:circle;\">\r\n\t\t<li>wyb&oacute;r typu wejścia: NO lub NC</li>\r\n\t\t<li>programowalny tryb pracy</li>\r\n\t\t<li>detekcja zwarcia lub przerwy w obwodzie</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>4 wyjścia przekaźnikowe:\r\n\t<ul style=\"list-style-type:circle;\">\r\n\t\t<li>programowalny typ wyjścia</li>\r\n\t\t<li>możliwość sterowania urządzeniami elektrycznymi zasilanymi napięciem 230 V AC</li>\r\n\t\t<li>przełączanie obciążeń rezystancyjnych, indukcyjnych lub pojemnościowych</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>obustronny izolator zwarć</li>\r\n\t<li>zasilanie z linii dozorowej</li>\r\n\t<li>wskaźniki LED informujące o:\r\n\t<ul style=\"list-style-type:circle;\">\r\n\t\t<li>stanie wejść</li>\r\n\t\t<li>stanie wyjść</li>\r\n\t\t<li>uszkodzeniu wejść</li>\r\n\t\t<li>uszkodzeniu modułu</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>możliwość montażu na szynie DIN (35 mm)</li>\r\n</ul>\r\n",
+    "specs": [
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-10°C...+55°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "225 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "93±3% ", "id": "223" },
+      { "name": "Wymiary", "value": "122 x 93 x 58 mm", "id": "289" },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "600 µA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "750 µA",
+        "id": "476"
+      },
+      { "name": "Napięcie zasilania", "value": "18...26 V DC", "id": "842" }
+    ]
+  },
+  "MLB-400": {
+    "name": "Moduł linii bocznej konwencjonalnej",
+    "description": "<p>Moduł <strong>MLB-400</strong> umożliwia podłączenie do adresowalnej centrali sygnalizacji pożarowej konwencjonalnych czujek albo ręcznych ostrzegaczy pożarowych firmy SATEL. Przeznaczony jest do pracy w linii dozorowej adresowalnej centrali sygnalizacji pożarowej <b>ACSP-402</b>.</p>\r\n\r\n<ul>\r\n\t<li>obsługa do 32 czujek albo 10 ręcznych ostrzegaczy pożarowych (ROP-&oacute;w)</li>\r\n\t<li>obustronny izolator zwarć</li>\r\n\t<li>zasilanie z linii dozorowej</li>\r\n\t<li>szczelna obudowa umożliwiająca montaż w miejscach występowania zjawiska skraplania pary wodnej</li>\r\n</ul>\r\n",
+    "specs": [
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-10°C...+55°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "153 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "93±3% ", "id": "223" },
+      { "name": "Wymiary", "value": "131 x 131 x 38,5 mm", "id": "289" },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "3 mA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "20 mA",
+        "id": "476"
+      },
+      { "name": "Napięcie zasilania", "value": "18...26 V DC", "id": "842" }
+    ]
+  },
+  "ROP-110/EU": {
+    "name": null,
+    "description": null,
+    "specs": [
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-10°C...+55°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "139 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "95% ", "id": "223" },
+      { "name": "Wymiary", "value": "87 x 87 x 47 mm", "id": "289" },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "0 mA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "25 mA",
+        "id": "476"
+      },
+      { "name": "Napięcie zasilania", "value": "9...30 V DC", "id": "842" }
+    ]
+  },
+  "ROP-110/PL": {
+    "name": "Konwencjonalny ręczny ostrzegacz pożarowy",
+    "description": "<p>Ostrzegacz <strong>ROP-110</strong> umożliwia ręczne wywołanie alarmu w przypadku zauważenia pożaru. Urządzenie przeznaczone jest do pracy z konwencjonalnymi centralami sygnalizacji pożarowej <b>CSP-104</b>, <b>CSP-108</b>, <b>CSP-204</b> i <b>CSP-208</b>.</p>\r\n\r\n<ul>\r\n\t<li>szybka z tworzywa sztucznego do wielokrotnego użytku</li>\r\n\t<li>klucz <b>ROP-KEY-U</b> (w zestawie) umożliwiający:\r\n\t<ul>\r\n\t\t<li>testowanie</li>\r\n\t\t<li>resetowanie</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>dioda LED sygnalizująca aktywowanie ostrzegacza</li>\r\n\t<li>opcjonalna puszka montażowa <b>ROP-BT</b> lub <b>ROP-BS</b></li>\r\n\t<li>opcjonalna osłona przed przypadkową aktywacją: <b>ROP-FLAP</b></li>\r\n</ul>\r\n",
+    "specs": [
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-10°C...+55°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "139 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "95% ", "id": "223" },
+      { "name": "Wymiary", "value": "87 x 87 x 47 mm", "id": "289" },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "0 mA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "25 mA",
+        "id": "476"
+      },
+      { "name": "Napięcie zasilania", "value": "9...30 V DC", "id": "842" }
+    ]
+  },
+  "ROP-111/EU": {
+    "name": null,
+    "description": null,
+    "specs": [
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-25°C...+70°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "180 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "95% ", "id": "223" },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "0 mA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "25 mA",
+        "id": "476"
+      },
+      { "name": "Stopień ochrony", "value": "IP66 ", "id": "479" },
+      { "name": "Napięcie zasilania", "value": "9...30 V DC", "id": "842" },
+      {
+        "name": "Wymiary bez uchwytów",
+        "value": "87 x 87 x 53 mm",
+        "id": "843"
+      },
+      {
+        "name": "Wymiary z uchwytami",
+        "value": "117 x 87 x 53 mm",
+        "id": "844"
+      }
+    ]
+  },
+  "ROP-111/PL": {
+    "name": "Konwencjonalny ręczny ostrzegacz pożarowy do zastosowań zewnętrznych",
+    "description": "<p>Ostrzegacz do zastosowań zewnętrznych <strong>ROP-111</strong> umożliwia ręczne wywołanie alarmu w przypadku zauważenia pożaru. Urządzenie przeznaczone jest do pracy z konwencjonalnymi centralami sygnalizacji pożarowej <b>CSP-104</b>, <b>CSP-108</b>, <b>CSP-204</b> i <b>CSP-208</b>.</p>\r\n\r\n<ul>\r\n\t<li>szybka z tworzywa sztucznego do wielokrotnego użytku</li>\r\n\t<li>klucz <b>ROP-KEY-U</b> (w zestawie) umożliwiający:\r\n\t<ul style=\"list-style-type:circle;\">\r\n\t\t<li>testowanie</li>\r\n\t\t<li>resetowanie</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>dioda LED sygnalizująca aktywowanie ostrzegacza</li>\r\n\t<li>puszka montażowa w zestawie</li>\r\n\t<li>opcjonalna osłona przed przypadkową aktywacją: <b>ROP-FLAP</b></li>\r\n</ul>\r\n",
+    "specs": [
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-25°C...+70°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "180 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "95% ", "id": "223" },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "0 mA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "25 mA",
+        "id": "476"
+      },
+      { "name": "Stopień ochrony", "value": "IP66 ", "id": "479" },
+      { "name": "Napięcie zasilania", "value": "9...30 V DC", "id": "842" },
+      {
+        "name": "Wymiary bez uchwytów",
+        "value": "87 x 87 x 53 mm",
+        "id": "843"
+      },
+      {
+        "name": "Wymiary z uchwytami",
+        "value": "117 x 87 x 53 mm",
+        "id": "844"
+      }
+    ]
+  },
+  "ROP-400/EU": {
+    "name": null,
+    "description": null,
+    "specs": [
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-10°C...+55°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "86 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "95% ", "id": "223" },
+      { "name": "Wymiary", "value": "87 x 87 x 40 mm", "id": "289" },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "170 µA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "450 µA",
+        "id": "476"
+      },
+      { "name": "Napięcie zasilania", "value": "18...26 V DC", "id": "842" }
+    ]
+  },
+  "ROP-400/PL": {
+    "name": "Adresowalny ręczny ostrzegacz pożarowy",
+    "description": "<p>Ostrzegacz <strong>ROP-400</strong> umożliwia ręczne wywołania alarmu w przypadku zauważenia pożaru. Przeznaczony jest do pracy w linii dozorowej adresowalnej centrali sygnalizacji pożarowej <b>ACSP-402</b>.</p>\r\n\r\n<ul>\r\n\t<li>szybka z tworzywa sztucznego do wielokrotnego użytku</li>\r\n\t<li>klucz <b>ROP-KEY-U</b> (w zestawie) umożliwiający:\r\n\t<ul>\r\n\t\t<li>testowanie</li>\r\n\t\t<li>resetowanie</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>dioda LED do sygnalizacji optycznej</li>\r\n\t<li>obustronny izolator zwarć</li>\r\n\t<li>zasilanie z pętli dozorowej</li>\r\n\t<li>opcjonalna puszka montażowa <b>ROP-BT</b> lub <b>ROP-BS</b></li>\r\n\t<li>opcjonalna osłona przed przypadkową aktywacją&nbsp;<b>ROP-FLAP</b></li>\r\n</ul>\r\n",
+    "specs": [
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-10°C...+55°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "86 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "95% ", "id": "223" },
+      { "name": "Wymiary", "value": "87 x 87 x 40 mm", "id": "289" },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "170 µA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "450 µA",
+        "id": "476"
+      },
+      { "name": "Napięcie zasilania", "value": "18...26 V DC", "id": "842" }
+    ]
+  },
+  "ROP-401/EU": {
+    "name": null,
+    "description": null,
+    "specs": [
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-25°C...+70°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "180 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "95% ", "id": "223" },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "170 µA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "450 µA",
+        "id": "476"
+      },
+      { "name": "Stopień ochrony", "value": "IP66 ", "id": "479" },
+      { "name": "Napięcie zasilania", "value": "18...26 V DC", "id": "842" },
+      {
+        "name": "Wymiary bez uchwytów",
+        "value": "87 x 87 x 53 mm",
+        "id": "843"
+      },
+      {
+        "name": "Wymiary z uchwytami",
+        "value": "117 x 87 x 53 mm",
+        "id": "844"
+      }
+    ]
+  },
+  "ROP-401/PL": {
+    "name": "Adresowalny ręczny ostrzegacz pożarowy do zastosowań zewnętrznych",
+    "description": "<p>Ostrzegacz do zastosowań zewnętrznych <strong>ROP-401</strong> umożliwia ręczne wywołanie alarmu w przypadku zauważenia pożaru. Urządzenie przeznaczone jest do pracy w linii dozorowej adresowalnej centrali sygnalizacji pożarowej <b>ACSP-402</b>.</p>\r\n\r\n<ul>\r\n\t<li>szybka z tworzywa sztucznego do wielokrotnego użytku</li>\r\n\t<li>klucz <b>ROP-KEY-U</b> (w zestawie) umożliwiający:\r\n\t<ul>\r\n\t\t<li>testowanie</li>\r\n\t\t<li>resetowanie</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>dioda LED do sygnalizacji optycznej</li>\r\n\t<li>obustronny izolator zwarć</li>\r\n\t<li>zasilanie z pętli dozorowej</li>\r\n\t<li>puszka montażowa w zestawie</li>\r\n\t<li>opcjonalna osłona przed przypadkową aktywacją: <b>ROP-FLAP</b></li>\r\n</ul>\r\n",
+    "specs": [
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-25°C...+70°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "180 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "95% ", "id": "223" },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "170 µA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "450 µA",
+        "id": "476"
+      },
+      { "name": "Stopień ochrony", "value": "IP66 ", "id": "479" },
+      { "name": "Napięcie zasilania", "value": "18...26 V DC", "id": "842" },
+      {
+        "name": "Wymiary bez uchwytów",
+        "value": "87 x 87 x 53 mm",
+        "id": "843"
+      },
+      {
+        "name": "Wymiary z uchwytami",
+        "value": "117 x 87 x 53 mm",
+        "id": "844"
+      }
+    ]
+  },
+  "SPP-110": {
+    "name": "Konwencjonalny sygnalizator akustyczny pożarowy",
+    "description": "<p>Sygnalizator <strong>SPP-110</strong> informuje przy pomocy dźwięku o alarmie. Urządzenie przeznaczone jest do pracy z konwencjonalnymi centralami sygnalizacji pożarowej <b>CSP-104</b>, <b>CSP-108</b>, <b>CSP-204</b> i <b>CSP-208</b>.</p>\r\n\r\n<ul>\r\n\t<li>sygnalizacja akustyczna generowana przy pomocy przetwornika piezoelektrycznego</li>\r\n\t<li>wyb&oacute;r spośr&oacute;d 32 typ&oacute;w dźwięku</li>\r\n\t<li>wyb&oacute;r poziomu głośności sygnalizacji</li>\r\n</ul>\r\n",
+    "specs": [
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-10°C...+55°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "225 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "95% ", "id": "223" },
+      { "name": "Wymiary", "value": "108 x 108 x 87 mm", "id": "289" },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "100 µA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "15 mA",
+        "id": "476"
+      },
+      { "name": "Stopień ochrony", "value": "IP21C ", "id": "479" },
+      { "name": "Napięcie zasilania", "value": "18...28 V DC", "id": "842" },
+      { "name": "Rodzaj środowiska pracy", "value": "A ", "id": "845" }
+    ]
+  },
+  "SPP-111": {
+    "name": "Konwencjonalny sygnalizator akustyczny pożarowy do zastosowań zewnętrznych",
+    "description": "<p>Sygnalizator do zastosowań zewnętrznych <strong>SPP-111</strong> informuje przy pomocy dźwięku o alarmie. Urządzenie przeznaczone jest do pracy z konwencjonalnymi centralami sygnalizacji pożarowej <b>CSP-104</b>, <b>CSP-108</b>, <b>CSP-204</b> i <b>CSP-208</b>.</p>\r\n\r\n<ul>\r\n\t<li>sygnalizacja akustyczna generowana przy pomocy przetwornika piezoelektrycznego</li>\r\n\t<li>wyb&oacute;r spośr&oacute;d 32 typ&oacute;w dźwięku</li>\r\n\t<li>wyb&oacute;r poziomu głośności sygnalizacji</li>\r\n</ul>\r\n",
+    "specs": [
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-25°C...+70°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "228 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "95% ", "id": "223" },
+      { "name": "Wymiary", "value": "108 x 108 x 96 mm", "id": "289" },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "100 µA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "15 mA",
+        "id": "476"
+      },
+      { "name": "Stopień ochrony", "value": "IP65 ", "id": "479" },
+      { "name": "Napięcie zasilania", "value": "18...28 V DC", "id": "842" },
+      { "name": "Rodzaj środowiska pracy", "value": "B ", "id": "845" }
+    ]
+  },
+  "SPP-400": {
+    "name": "Adresowalny sygnalizator akustyczny pożarowy",
+    "description": "<p>Sygnalizator do zastosowań wewnętrznych <strong>SPP-400</strong> informuje przy pomocy dźwięku o alarmie. Przeznaczony jest do pracy w linii dozorowej adresowalnej centrali sygnalizacji pożarowej <b>ACSP-402</b>.</p>\r\n\r\n<ul>\r\n\t<li>sygnalizacja akustyczna generowana przy pomocy przetwornika piezoelektrycznego</li>\r\n\t<li>sygnalizacja sterowana przez centralę:\r\n\t<ul style=\"list-style-type:circle;\">\r\n\t\t<li>r&oacute;żne typy sygnalizacji dla r&oacute;żnych sytuacji alarmowych</li>\r\n\t\t<li>wyb&oacute;r spośr&oacute;d 32 typ&oacute;w sygnalizacji dźwiękowej</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>obustronny izolator zwarć</li>\r\n\t<li>zasilanie z pętli dozorowej</li>\r\n</ul>\r\n",
+    "specs": [
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-10°C...+55°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "224 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "95% ", "id": "223" },
+      { "name": "Wymiary", "value": "108 x 108 x 87 mm", "id": "289" },
+      {
+        "name": "Pobór prądu w stanie dozorowania",
+        "value": "250 µA",
+        "id": "475"
+      },
+      {
+        "name": "Pobór prądu w stanie alarmowania",
+        "value": "4 mA",
+        "id": "476"
+      },
+      { "name": "Stopień ochrony", "value": "IP21C ", "id": "479" },
+      { "name": "Napięcie zasilania", "value": "18...26 V DC", "id": "842" },
+      { "name": "Rodzaj środowiska pracy", "value": "A ", "id": "845" }
+    ]
+  },
+  "SPP-401": {
+    "name": "Adresowalny sygnalizator akustyczny pożarowy do zastosowań zewnętrznych",
+    "description": "<p>Sygnalizator do zastosowań zewnętrznych <strong>SPP-401</strong> informuje przy pomocy dźwięku o alarmie. Urządzenie przeznaczone jest do pracy w linii dozorowej adresowalnej centrali sygnalizacji pożarowej <b>ACSP-402</b>.</p>\r\n\r\n<ul>\r\n\t<li>sygnalizacja akustyczna generowana przy pomocy przetwornika piezoelektrycznego</li>\r\n\t<li>sygnalizacja sterowana przez centralę:\r\n\t<ul style=\"list-style-type:circle;\">\r\n\t\t<li>r&oacute;żne typy sygnalizacji dla r&oacute;żnych sytuacji alarmowych</li>\r\n\t\t<li>wyb&oacute;r spośr&oacute;d 32 typ&oacute;w sygnalizacji dźwiękowej</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>obustronny izolator zwarć</li>\r\n\t<li>zasilanie z pętli dozorowej</li>\r\n</ul>\r\n",
+    "specs": []
+  },
+  "WZ-110": {
+    "name": "Wyniesiony wskaźnik zadziałania",
+    "description": "<p>Wskaźnik <strong>WZ-110</strong> informuje świeceniem diod LED o zgłoszeniu alarmu przez czujkę lub ich grupę (jeżeli przynajmniej jedna czujka z grupy zgłasza alarm). Przeznaczony jest do pracy w ramach konwencjonalnego (<strong>CSP</strong>) lub adresowalnego (<strong>ACSP</strong>) systemu sygnalizacji pożarowej.</p>\r\n\r\n<ul>\r\n\t<li>sygnalizacja optyczna przy pomocy diod LED</li>\r\n\t<li>zasilanie z czujki, do kt&oacute;rej jest podłączony</li>\r\n</ul>\r\n",
+    "specs": [
+      { "name": "Wymiary obudowy", "value": "84 x 84 x 30 mm", "id": "141" },
+      {
+        "name": "Zakres temperatur pracy",
+        "value": "-10°C...+55°C ",
+        "id": "147"
+      },
+      { "name": "Masa", "value": "56 g", "id": "185" },
+      { "name": "Maksymalna wilgotność", "value": "93±3% ", "id": "223" },
+      {
+        "name": "Średni pobór prądu (z czujki)",
+        "value": "400 µA",
+        "id": "477"
+      },
+      { "name": "Napięcie zasilania", "value": "10...24 V DC", "id": "842" }
+    ]
+  },
+  "WZ-400": {
+    "name": "Adresowalny wskaźnik zadziałania",
+    "description": "<p>Wskaźnik <strong>WZ-400</strong> informuje świeceniem diod LED o wybranych zdarzeniach w systemie sygnalizacji pożarowej. Zdarzenia te mogą dotyczyć:</p>\r\n\r\n<ul>\r\n\t<li>pojedynczej czujki / pojedynczego modułu linii bocznej:\r\n\t<ul style=\"list-style-type:circle;\">\r\n\t\t<li>zgłoszenie alarmu przez czujkę / moduł</li>\r\n\t\t<li>uszkodzenie czujki / modułu</li>\r\n\t\t<li>blokada czujki / modułu</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>strefy:\r\n\t<ul style=\"list-style-type:circle;\">\r\n\t\t<li>alarm w strefie</li>\r\n\t\t<li>uszkodzenie urządzenia ze strefy</li>\r\n\t\t<li>blokada urządzenia ze strefy</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>grupy:\r\n\t<ul style=\"list-style-type:circle;\">\r\n\t\t<li>uruchomienie sygnalizator&oacute;w grupy</li>\r\n\t\t<li>uszkodzenie urządzenia z grupy</li>\r\n\t\t<li>blokada urządzenia z grupy.</li>\r\n\t</ul>\r\n\t</li>\r\n</ul>\r\n\r\n<p>Wskaźnik przeznaczony jest do pracy w linii dozorowej adresowalnej centrali sygnalizacji pożarowej <b>ACSP-402</b>.</p>\r\n\r\n<ul>\r\n\t<li>sygnalizacja optyczna przy pomocy diod LED</li>\r\n\t<li>sygnalizacja sterowana przez centralę:\r\n\t<ul style=\"list-style-type:circle;\">\r\n\t\t<li>możliwość powiązania wskaźnika z pojedynczą czujką, pojedynczym modułem linii bocznej, strefą albo grupą</li>\r\n\t\t<li>wyb&oacute;r sygnalizowanych zdarzeń</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>obustronny izolator zwarć</li>\r\n\t<li>zasilanie z linii dozorowej</li>\r\n</ul>\r\n",
+    "specs": []
+  }
+}
